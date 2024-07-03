@@ -8,6 +8,8 @@
 # testing
 /coverage
 
+.replit
+
 # next.js
 /.next/
 /out/

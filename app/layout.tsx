@@ -32,6 +32,8 @@ export default function RootLayout({
               <Link href="/team">Team </Link>
               <br />
               <Link href="/team/about">Team About </Link>
+              <br />
+              <Link href="/products">Products </Link>
             </li>
           </ul>
         </nav>

@@ -1,3 +1,15 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "About Team",
+  openGraph: {
+    type: "profile",
+    locale: "en_AU",
+    firstName: "Team",
+    lastName: "One",
+  },
+};
+
 export default function AboutTeam() {
-  return <h1>About Team</h1>;
+  return <h3>About Team</h3>;
 }

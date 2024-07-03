@@ -1,4 +1,6 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+	basePath: "/core",
+};
 
 module.exports = nextConfig;

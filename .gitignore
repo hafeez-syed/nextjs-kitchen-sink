@@ -9,6 +9,7 @@
 /coverage
 
 .replit
+.anima
 
 # next.js
 /.next/

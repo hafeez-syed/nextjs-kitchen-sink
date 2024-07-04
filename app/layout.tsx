@@ -34,6 +34,10 @@ export default function RootLayout({
               <Link href="/team/about">Team About </Link>
               <br />
               <Link href="/products">Products </Link>
+              <br />
+              <Link href="/dynamic-route">Dynamic Route </Link>
+              <br />
+              <Link href="/nested-routes">Nested Routes </Link>
             </li>
           </ul>
         </nav>

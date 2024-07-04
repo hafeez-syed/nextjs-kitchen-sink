@@ -10,7 +10,7 @@ export async function generateMetadata({ params }: any): Promise<Metadata> {
 }
 
 const fetchProducts = async () => {
-	throw new Error("Oops! Something went wrong");
+	// throw new Error("Oops! Something went wrong");
 	await wait(2000);
 	const response = await fetch("https://jsonplaceholder.typicode.com/posts");
 	return await response.json();

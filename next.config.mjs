@@ -3,4 +3,4 @@ const nextConfig = {
 	basePath: "/core",
 };
 
-module.exports = nextConfig;
+export default nextConfig;
